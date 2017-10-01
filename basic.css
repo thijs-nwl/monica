@@ -14,7 +14,6 @@ html, body {
 }
 
 body, body * {
-  max-width: 100vw;
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -75,6 +74,14 @@ body .in h1 {
   height: 40px;
 }
 
+
+#trgt #about img {
+  width: 50%;
+  float: left;
+
+}
+
+
 nav ul {
   background-color: rgba(1,87,155, 0.9);
   width: 100vw;
@@ -110,9 +117,12 @@ nav ul li a:hover {
   position: relative;
 }
 
+
+
 #trgt #about{
   margin-top: 40px;
 }
+
 
 #trgt .sec {
   height: auto;
@@ -168,6 +178,10 @@ a {
 }
 
 
+#trgt #work {
+  height: auto!important;
+}
+
 @media screen and (min-width: 500px){
   body * nav a{
     font-size: 15px;
@@ -177,6 +191,12 @@ a {
     font-size: 40px;
 
   }
+
+  #trgt #about img {
+    width: 40%;
+    float: right;
+  }
+
 
   #rand #ctext #face {
     word-spacing: 2px;
@@ -210,9 +230,15 @@ a {
   }
 }
 
+
 @media screen and (min-width: 730px){
   #trt #ctext {
     transform: scale(1.5, 1.2);
+  }
+
+  #trgt #about img {
+    width: 20%;
+    float: right;
   }
 
   body .in h1 {
